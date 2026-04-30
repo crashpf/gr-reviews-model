@@ -19,5 +19,4 @@ venv/
 .ipynb_checkpoints/
 
 # ── OS files ───────────────────────────
-.DS_Store        # Mac
 Thumbs.db        # Windows
