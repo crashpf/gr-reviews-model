@@ -1,0 +1,23 @@
+# ── Data ───────────────────────────────
+# Don't commit raw scraped/personal data
+data/raw/
+data/splits/
+
+# ── Models ─────────────────────────────
+# Model weights are too large for git
+models/
+
+# ── Python ─────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# ── Jupyter ────────────────────────────
+.ipynb_checkpoints/
+
+# ── OS files ───────────────────────────
+.DS_Store        # Mac
+Thumbs.db        # Windows
