@@ -14,7 +14,7 @@ from sklearn.model_selection import train_test_split
 INPUT_PATH = Path("data/raw/Sentiment-analysis.xlsx")
 TRAIN_PATH = Path("data/splits/train.csv")
 TEST_PATH = Path("data/splits/test.csv")
-VAL_PATH = Path("data/splits/train.csv")
+VAL_PATH = Path("data/splits/val.csv")
 
 ###### Load ######
 df = pd.read_excel(INPUT_PATH)
