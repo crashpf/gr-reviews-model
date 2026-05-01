@@ -17,7 +17,7 @@ TEST_PATH = Path("data/splits/test.csv")
 VAL_PATH = Path("data/splits/train.csv")
 
 ###### Load ######
-df = pd.read_csv(INPUT_PATH)
+df = pd.read_excel(INPUT_PATH)
 print(f"Total reviews loaded: {len(df)}")
 
 ###### Split ######
