@@ -5,7 +5,7 @@ A script that splits the data (CSV) into train/test/val splits.
 How to use:
 python src/split.py
 """
-from pandas import pd
+import pandas as pd
 from pathlib import Path
 from sklearn.model_selection import train_test_split
 
