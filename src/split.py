@@ -39,4 +39,9 @@ print(f"Split complete:")
 print(f"  Train: {len(train_df)} rows  → {TRAIN_PATH}")
 print(f"  Val:   {len(val_df)} rows  → {VAL_PATH}")
 print(f"  Test:  {len(test_df)} rows  → {TEST_PATH}")
- 
+
+print(f"\n Label Distribution for each split")
+
+for name, split in [("Train", train_df), ("Val", val_df), ("Test", test_df)]:
+    counts = split["label"].value_counts().to_dict()
+    print(f"  {name:6s}: {counts}")
