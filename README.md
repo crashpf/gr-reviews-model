@@ -7,5 +7,5 @@ for 3-class sentiment classification (positive / neutral / negative).
 pip install -r requirements.txt
 
 ## Data
-- 243 manually labeled Skroutz reviews
-- Labels: positive (84), neutral (80), negative (79)
+- 200 manually labeled Skroutz reviews
+- Labels: positive (84), neutral (37), negative (79)
